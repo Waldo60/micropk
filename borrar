@@ -1,12 +1,11 @@
 !/bin/bash
-PUTO EL QUE LO DESENCRIPTA
-colores
 
+colores
 
 if [ $(id -u) -eq 0 ];then
 clear
 else
-echo -e "Run the script as user${lor2}root${lor7}"
+echo -e "Run the script as user$root"
 exit
 fi 
 [ -f /usr/bin/vps-mx ]&&echo -e "${lor1}THIRD PARTY SCRIPT DETECTED"&& exit 
