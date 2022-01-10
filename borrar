@@ -6,13 +6,6 @@ if [ $(id -u) -eq 0 ];then
 clear
 else
 echo -e "Run the script as user$root"
-exit
-fi 
-[ -f /usr/bin/vps-mx ]&&echo -e "${lor1}THIRD PARTY SCRIPT DETECTED"&& exit 
-[ -f /usr/bin/adm ]&&echo -e "${lor1}THIRD PARTY SCRIPT DETECTED"&& exit 
-[ -f /bin/menu ]&&echo -e "${lor1}THIRD PARTY SCRIPT DETECTED"&& exit 
-[ -f /etc/newadm/menu ]&&echo -e "${lor1}THIRD PARTY SCRIPT DETECTED"&& exit 
-fun_bar () {
           comando[0]="$1"
           comando[1]="$2"
           (
