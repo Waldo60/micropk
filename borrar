@@ -1,8 +1,4 @@
 !/bin/bash
-
-colores
-
-if [ $(id -u) -eq 0 ];then
 clear
 else
 echo -e "Run the script as user$root"
