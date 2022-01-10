@@ -1,6 +1,5 @@
 !/bin/bash
 clear
-else
 echo -e "Run the script as user$root"
           comando[0]="$1"
           comando[1]="$2"
