@@ -140,7 +140,7 @@ echo -e "${lor1}===================================================${lor7} "
 echo -e "${lor4}$b ${lor7}"
 echo -e "${lor7}      Mini Script Panel created by @KillShito "
 echo -e "${lor1}[-]——————————————————————————————————————————————[-]${lor7}"
-data="/etc/prokill/database"
+touch /etc/prokill/database
 tmp_now=$(printf '%(%H%M%S)T\n')
 fundrop () {
 port_dropbear=`ps aux | grep dropbear | awk NR==1 | awk '{print $17;}'`
