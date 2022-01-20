@@ -1,4 +1,4 @@
-if
+
 
 """Tests for firebase_admin.db."""
 import collections
@@ -7,4 +7,3 @@ import os
 import sys
 import time
 
-fi
