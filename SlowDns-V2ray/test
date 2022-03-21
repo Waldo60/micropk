@@ -88,7 +88,7 @@ v2ra=$(echo -e "${lor1}OFF ")
 fi
 
 echo -e "${lor4}***************************************************${lor7}"
-echo -e "${lor2}   SCRIPT |${lor7} 🌀ADM-WOLI 🌎😂     "
+echo -e "${lor2}   SCRIPT |${lor7} 🌀ADM-TTTT 🌎😂     "
 echo -e "${lor1}===================================================${lor7} "
 echo -e "${lor4}$b ${lor7}"
 echo -e "${lor7}      Mini Script Panel created by @KillShito "
